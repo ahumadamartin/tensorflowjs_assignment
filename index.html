@@ -1,0 +1,19 @@
+<html>
+  <head>
+	<!-- load jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Load the latest version of TensorFlow.js -->
+	<script src="https://unpkg.com/@tensorflow/tfjs"></script>
+	<script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+  </head>
+  <body>
+	please load an image<br><br>
+	<input type="file" id="imagefile"><br><br>
+	
+	<img id="img" src="#" width=227 height=227>	<br><br>
+	<div id="console"></div>
+	<button onclick="app();"> Predict </button>
+	<!-- load index.js after the content of the page -->
+	<script src="js/index.js"></script>
+  </body>
+</html>
